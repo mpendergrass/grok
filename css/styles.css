@@ -1,0 +1,264 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+a {
+  text-decoration: none; }
+
+.logo {
+  margin: .3em; }
+
+.logo a {
+  display: block;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -9999px;
+  width: 68px;
+  height: 78px;
+  margin: 0 auto; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+body, li {
+  font-family: "Maven Pro", sans-serif; }
+
+.wrapper {
+  margin: 0;
+  padding: 0 5%; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
+.blueBG {
+  background-color: #00ccff;
+  color: white; }
+
+.subtitle {
+  text-align: center; }
+
+.registerButton {
+  color: #cdfd00;
+  background: rgba(35, 40, 43, 0.9);
+  width: 90%;
+  position: fixed;
+  top: 0;
+  padding: .65em 5%;
+  text-align: right;
+  text-transform: lowercase;
+  margin-bottom: 2em; }
+  .registerButton .linkArrows {
+    margin-left: 15px;
+    margin-top: 3px; }
+
+.logo {
+  margin-top: 1.6em; }
+
+.landing {
+  background: url(../images/landingBG.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 2em 0;
+  -webkit-font-smoothing: antialiased; }
+  .landing h3, .landing p {
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase; }
+  .landing h3 {
+    font-size: 2.75em;
+    margin: 0; }
+  .landing p {
+    line-height: 1.4; }
+  .landing h2 {
+    display: block;
+    background: url(../images/grok.png) no-repeat;
+    text-indent: -9999px;
+    width: 270px;
+    height: 98px;
+    background-size: 270px 98px;
+    margin: 0 auto; }
+  .landing .navLink {
+    color: #00ccff;
+    text-transform: lowercase;
+    display: block;
+    background: rgba(35, 40, 43, 0.9);
+    margin-bottom: .25em;
+    padding: .65em 0;
+    text-align: center; }
+  .landing .landingSubtitle {
+    margin-top: 0; }
+  .landing .joinUs {
+    color: #cdfd00;
+    text-transform: uppercase;
+    background: rgba(35, 40, 43, 0.9);
+    display: inline-block;
+    padding: .65em 2.75em;
+    text-align: center;
+    font-size: .85em;
+    margin: 0 auto; }
+
+.about h2 {
+  display: block;
+  background: url(../images/whatIsGrok.png) no-repeat;
+  text-indent: -9999px;
+  width: 160px;
+  height: 20px;
+  background-size: 160px 20px;
+  margin: 0 auto;
+  margin-top: 1em; }
+.about h3 {
+  line-height: 1.4;
+  font-size: 1.5em; }
+.about .aboutList {
+  background: url(../images/group1020.jpg) no-repeat;
+  color: white; }
+.about .blueBG {
+  -webkit-font-smoothing: antialiased; }
+
+.the1020s {
+  background-color: #23282b;
+  color: white;
+  padding: 3em 0 .01em; }
+  .the1020s img {
+    margin: 0 auto;
+    display: block; }
+  .the1020s h3, .the1020s h4, .the1020s p {
+    text-align: center; }
+  .the1020s p {
+    margin-bottom: 4em; }
+  .the1020s h3 {
+    font-size: 6em;
+    margin: 0 1em 0; }
+  .the1020s h4 {
+    font-size: 1.5em;
+    text-transform: lowercase;
+    margin: 0; }
+  .the1020s .dialLabel {
+    margin-top: -13em;
+    margin-bottom: 6em; }
+
+.testimonials h2 {
+  display: block;
+  background: url(../images/testimonials.png) no-repeat;
+  text-indent: -9999px;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto; }
+.testimonials h5 {
+  color: #00ccff; }
+.testimonials img {
+  margin: 0 auto;
+  display: block; }
+
+.keynote {
+  background-color: #23282b;
+  color: white;
+  padding: 3em 0; }
+  .keynote h3 {
+    text-align: center;
+    color: #00ccff;
+    font-size: 2em;
+    margin-top: 0; }
+  .keynote .speaker {
+    padding: 2em 0;
+    min-height: 20em;
+    margin-bottom: 1.5em; }
+  .keynote h4 {
+    color: #00ccff;
+    font-size: 1.25em;
+    letter-spacing: 1px; }
+  .keynote p {
+    line-height: 1.6; }
+  .keynote .paul {
+    background: url(../images/paul.jpg) center no-repeat; }
+  .keynote .moldover {
+    background: url(../images/moldover.jpg) center no-repeat; }
+  .keynote .aaron {
+    background: url(../images/aaron.jpg) center no-repeat; }
+  .keynote .carl {
+    background: url(../images/carl.jpg) center no-repeat; }
+
+.location h2 {
+  display: block;
+  background: url(../images/schedule.png) no-repeat;
+  text-indent: -9999px;
+  width: 68px;
+  height: 78px;
+  margin: 0 auto; }
+.location .address {
+  display: inline-block; }
+  .location .address a {
+    text-decoration: underline;
+    color: white; }
+.location .ironYard {
+  margin-left: 8%; }
+
+.schedule {
+  background: url(../images/scheduleBG.jpg) left no-repeat;
+  background-size: cover;
+  text-transform: uppercase; }
+  .schedule .day {
+    background: rgba(20, 49, 58, 0.55);
+    color: white;
+    margin-bottom: 2px;
+    padding: 1em 0; }
+  .schedule .eventList {
+    background: rgba(20, 49, 58, 0.55);
+    color: white;
+    margin-top: 0;
+    padding: 1em 0; }
+  .schedule h3 {
+    font-size: 2.25em;
+    text-transform: uppercase;
+    margin-bottom: .15em;
+    margin-top: 0; }
+  .schedule h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25em; }
+  .schedule dt {
+    font-size: 1.25em;
+    margin-bottom: .3em; }
+  .schedule dd {
+    margin-left: 0;
+    margin-bottom: 2em; }
+
+.register {
+  background-color: #23282b;
+  text-align: center;
+  padding: 3em 0; }
+  .register h2 {
+    display: block;
+    background: url(../images/limitedSpace.png) no-repeat;
+    text-indent: -9999px;
+    width: 68px;
+    height: 78px;
+    margin: 0 auto; }
+  .register h3 {
+    color: white; }
+  .register a {
+    display: inline-block;
+    color: #cdfd00;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid #cdfd00;
+    padding: .65em 2.5em;
+    margin: 3em 2em 0; }
+
+/*# sourceMappingURL=styles.css.map */

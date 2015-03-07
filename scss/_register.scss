@@ -1,0 +1,32 @@
+.register {
+
+	background-color: $gray;
+	text-align: center;
+	padding: 3em 0;
+
+	h2 {
+		display:block;
+		background: url(../images/limitedSpace.png) no-repeat;
+		text-indent: -9999px;
+		width: 68px;
+		height: 78px;
+		margin: 0 auto;
+	}
+
+	h3 {
+		color: white;
+	}
+
+	a {
+		display: inline-block;
+		color: $neon;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		border: 1px solid $neon;
+		padding: .65em 2.5em;
+		margin: 3em 2em 0;
+
+	}
+
+
+}

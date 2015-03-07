@@ -1,0 +1,84 @@
+.registerButton {
+		color: $neon;
+		background: rgba(35, 40, 43, .9);
+		width: 90%;
+		position: fixed;
+		top: 0;
+		padding: .65em 5%;
+		text-align: right;
+		text-transform: lowercase;
+		margin-bottom: 2em;
+	
+		.linkArrows {
+			margin-left: 15px;
+			margin-top: 3px;
+			
+		}
+	}
+
+	.logo {
+		margin-top: 1.6em;
+	}
+
+.landing {
+	background: url(../images/landingBG.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 2em 0;
+	-webkit-font-smoothing: antialiased;
+	
+	
+	h3, p {
+		color: white;
+		font-weight: 100;
+		text-transform: uppercase;
+		
+	}
+
+	h3 {
+		font-size: 2.75em;
+		margin: 0;
+	
+	}
+
+	p {
+		line-height: 1.4;
+	}
+
+	h2 {
+		display:block;
+		background: url(../images/grok.png) no-repeat;
+		text-indent: -9999px;
+		width: 270px;
+		height: 98px;
+		background-size: 270px 98px;
+		margin: 0 auto;
+	}
+
+	.navLink {
+		color: $blue;
+		text-transform: lowercase;
+		display: block;
+		background: rgba(35, 40, 43, .9);
+		margin-bottom: .25em;
+		padding: .65em 0;
+		text-align: center;
+
+	}
+
+	.landingSubtitle {
+		margin-top: 0;
+	}
+
+	.joinUs {
+		color: $neon;
+		text-transform: uppercase;
+		background: rgba(35, 40, 43, .9);
+		display: inline-block;
+		padding: .65em 2.75em;
+		text-align: center;
+		font-size: .85em;
+		margin: 0 auto;
+	}
+}

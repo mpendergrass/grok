@@ -1,0 +1,66 @@
+.location {
+	h2 {
+		display:block;
+		background: url(../images/schedule.png) no-repeat;
+		text-indent: -9999px;
+		width: 68px;
+		height: 78px;
+		margin: 0 auto;
+	}
+
+	
+
+	.address {
+		display: inline-block;
+		a {
+			text-decoration: underline;
+			color: white;
+		}
+	}
+
+	.ironYard {
+		margin-left: 8%;
+	}
+}
+
+.schedule {
+	background: url(../images/scheduleBG.jpg) left no-repeat;
+	background-size: cover;
+	text-transform: uppercase;
+
+	.day {
+		background: rgba(20, 49, 58, .55);
+		color: white;
+		margin-bottom: 2px;
+		padding: 1em 0;
+	}
+	.eventList {
+		background: rgba(20, 49, 58, .55);
+		color: white;
+		margin-top: 0;
+		padding: 1em 0;
+	}
+
+	h3 {
+		font-size: 2.25em;
+		text-transform: uppercase;
+		margin-bottom: .15em;
+		margin-top: 0;
+
+	}
+
+	h4 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.25em;
+	}
+	dt {
+		font-size: 1.25em;
+		margin-bottom: .3em;
+	}
+	dd {
+		margin-left: 0;
+		margin-bottom: 2em;
+	}
+
+}

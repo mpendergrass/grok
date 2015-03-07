@@ -1,0 +1,67 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+
+
+img{
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0; 
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin: .3em;
+}
+
+.logo a {
+	display:block;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 68px;
+	height: 78px;
+	margin: 0 auto;
+}
+
+body {
+	padding:0;
+	margin: 0;
+}
+
+body, li {
+	font-family: $font;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+.blueBG {
+	background-color: $blue;
+	color: white;
+}
+
+.subtitle {
+	text-align: center;
+}

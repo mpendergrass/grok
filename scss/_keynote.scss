@@ -1,0 +1,44 @@
+.keynote{
+
+	background-color: $gray;
+	color: white;
+	padding: 3em 0;
+
+	h3 {
+		text-align: center;
+		color: $blue;
+		font-size: 2em;
+		margin-top: 0;
+	}
+	
+	.speaker {
+		padding: 2em 0;
+		min-height: 20em;
+		margin-bottom: 1.5em;
+	}
+
+	h4 {
+		color: $blue;
+		font-size: 1.25em;
+		letter-spacing: 1px;
+	}
+
+	p {
+		line-height: 1.6;
+	}
+
+	.paul {
+		background: url(../images/paul.jpg) center no-repeat;
+	}
+
+	.moldover {
+		background: url(../images/moldover.jpg) center no-repeat;
+	}
+	.aaron {
+		background: url(../images/aaron.jpg) center no-repeat;
+	}
+	.carl {
+		background: url(../images/carl.jpg) center no-repeat;
+	}
+
+}

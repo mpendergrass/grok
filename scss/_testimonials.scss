@@ -1,0 +1,19 @@
+.testimonials {
+	h2 {
+		display:block;
+		background: url(../images/testimonials.png) no-repeat;
+		text-indent: -9999px;
+		width: 200px;
+		height: 100px;
+		margin: 0 auto;
+	}
+
+	h5 {
+		color: $blue;
+	}
+
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+}

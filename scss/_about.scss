@@ -1,0 +1,26 @@
+.about{
+
+	h2 {
+		display:block;
+		background: url(../images/whatIsGrok.png) no-repeat;
+		text-indent: -9999px;
+		width: 160px;
+		height: 20px;
+		background-size: 160px 20px;
+		margin: 0 auto;
+		margin-top: 1em;
+		}
+
+	h3 {
+		line-height: 1.4;
+		font-size: 1.5em;
+	}
+	.aboutList {
+		background: url(../images/group1020.jpg) no-repeat;
+		color: white;
+	}
+
+	.blueBG {
+		-webkit-font-smoothing: antialiased;
+	}
+}
