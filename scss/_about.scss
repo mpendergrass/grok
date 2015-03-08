@@ -1,4 +1,5 @@
 .about{
+	
 
 	h2 {
 		display:block;
@@ -7,20 +8,54 @@
 		width: 160px;
 		height: 20px;
 		background-size: 160px 20px;
-		margin: 0 auto;
-		margin-top: 1em;
+		margin: 1em auto;
+		
 		}
+
+	p {
+		margin-bottom: 0;
+		font-weight: 500;
+	}
+
+	.verb {
+		margin-top: 0;
+	}
+
+	ul {
+		margin: 0;
+	}
+
+
+	li {
+		-webkit-font-smoothing: antialiased;
+		margin-bottom: 1.15em;
+		font-size: 1.2em;
+		line-height: 1.4;
+	}
+	
+	h4 {
+		font-size: 1.3em;
+		margin-bottom: 0; 
+		font-weight: 500;
+
+	}
 
 	h3 {
 		line-height: 1.4;
 		font-size: 1.5em;
 	}
+
+
+
 	.aboutList {
 		background: url(../images/group1020.jpg) no-repeat;
 		color: white;
+		padding: 1.25em 0;
 	}
 
 	.blueBG {
-		-webkit-font-smoothing: antialiased;
+		padding: 1.25em 0;
+		
+
 	}
 }

@@ -1,0 +1,33 @@
+.closing {
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	h2 {
+		padding: 0 5%;
+		display:block;
+		background: url(../images/presentedBy.png) no-repeat;
+		text-indent: -9999px;
+		width: 140px;
+		height: 20px;
+		margin: 0 auto;
+		background-size: 170px 20px;
+	}
+
+	.blueBG {
+		padding: 1em 0;
+	}
+}
+
+.helpFrom {
+	h2 {
+		padding: 1em 5%;
+		display:block;
+		background: url(../images/withHelp.png) no-repeat;
+		text-indent: -9999px;
+		width: 198px;
+		height: 20px;
+		margin: 0 auto;
+		background-size: 198px 20px;
+	}
+}

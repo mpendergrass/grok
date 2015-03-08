@@ -3,18 +3,38 @@
 		display:block;
 		background: url(../images/schedule.png) no-repeat;
 		text-indent: -9999px;
-		width: 68px;
-		height: 78px;
-		margin: 0 auto;
+		width: 240px;
+		height: 20px;
+		margin: 1em auto;
+		background-size: 240px 20px;
+	}
+	
+	ul {
+		margin-top: .3em;
+	}
+	h5 {
+		margin-bottom: .2em;
+		font-size: 1em;
+	}
+	.blueBG {
+		padding: 1em 0;
 	}
 
-	
+	.intro {
+		margin-top: 0;
+		line-height: 1.5;
+		font-weight: 500;
+	}	
 
 	.address {
 		display: inline-block;
 		a {
 			text-decoration: underline;
 			color: white;
+		}
+
+		li {
+			font-weight: 500;
 		}
 	}
 
@@ -41,11 +61,14 @@
 		padding: 1em 0;
 	}
 
+
+
 	h3 {
-		font-size: 2.25em;
+		font-size: 2.1em;
 		text-transform: uppercase;
 		margin-bottom: .15em;
 		margin-top: 0;
+		font-weight: 400;
 
 	}
 
@@ -53,6 +76,7 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		font-size: 1.25em;
+		font-weight: 400;
 	}
 	dt {
 		font-size: 1.25em;

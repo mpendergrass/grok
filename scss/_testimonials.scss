@@ -1,19 +1,58 @@
 .testimonials {
 	h2 {
 		display:block;
-		background: url(../images/testimonials.png) no-repeat;
+		background: url(../images/unconference.png) no-repeat;
 		text-indent: -9999px;
-		width: 200px;
-		height: 100px;
-		margin: 0 auto;
-	}
-
-	h5 {
-		color: $blue;
+		width: 260px;
+		height: 85px;
+		background-size: 260px 85px;
+		margin: 1em auto;
+		text-align: left;
 	}
 
 	img {
-		margin: 0 auto;
+		margin: 0 auto 1em;
 		display: block;
+	}
+}
+
+.epic {
+
+
+	h4 {
+		margin-bottom: 0;
+		line-height: 1.4;
+	}
+	.blueBG {
+		padding: 1em 0;
+		margin: 0 0 2em;
+	}
+
+}
+
+.testimonialLeft, .testimonialRight {
+	h5, h6 {
+		color: $blue;
+		font-size: .85em;
+		text-align: right;
+	}
+
+	h5 {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	h6 {
+		margin-top: .2em;
+		margin-bottom: 5em;
+	}
+
+	.quote {
+		color: $gray;
+		line-height: 1.5;
+		margin: 0 auto;
+		margin-bottom: .8em;
+		width: 89%;
+
 	}
 }

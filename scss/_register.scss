@@ -1,5 +1,5 @@
 .register {
-
+	margin-top:-1em;
 	background-color: $gray;
 	text-align: center;
 	padding: 3em 0;
@@ -8,13 +8,19 @@
 		display:block;
 		background: url(../images/limitedSpace.png) no-repeat;
 		text-indent: -9999px;
-		width: 68px;
-		height: 78px;
+		background-size: 240px 20px;
+		width: 240px;
+		height: 20px;
 		margin: 0 auto;
+		margin-bottom: 1em;
 	}
 
 	h3 {
 		color: white;
+		font-weight: 400;
+		margin-top: 0;
+		font-size: .9em;
+		letter-spacing: 1px;
 	}
 
 	a {
@@ -22,7 +28,7 @@
 		color: $neon;
 		letter-spacing: 1px;
 		text-transform: uppercase;
-		border: 1px solid $neon;
+		border: 2px solid $neon;
 		padding: .65em 2.5em;
 		margin: 3em 2em 0;
 
