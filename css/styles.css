@@ -159,6 +159,9 @@ h1, h2, h3, h4, h5, h6 {
 .about p {
   margin-bottom: 0;
   font-weight: 500; }
+  @media (min-width: 600px) {
+    .about p {
+      font-size: 1.1em; } }
 .about .verb {
   margin-top: 0; }
 .about ul {
@@ -201,6 +204,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 4em;
     width: 80%;
     font-style: .85em; }
+    @media (min-width: 600px) {
+      .the1020s p {
+        font-size: 1.1em;
+        width: 75%; } }
   .the1020s h3 {
     font-size: 6em;
     margin: 0 auto; }
@@ -225,9 +232,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 1em;
   display: block; }
 
+.epic h3 {
+  font-weight: 400; }
 .epic h4 {
   margin-bottom: 0;
   line-height: 1.4; }
+  @media (min-width: 600px) {
+    .epic h4 {
+      font-size: 1.2em; } }
 .epic .blueBG {
   padding: 1em 0;
   margin: 0 0 2em; }
@@ -235,13 +247,15 @@ h1, h2, h3, h4, h5, h6 {
 .testimonialLeft h5, .testimonialLeft h6, .testimonialRight h5, .testimonialRight h6 {
   color: #00ccff;
   font-size: .85em;
-  text-align: right; }
+  text-align: left; }
 .testimonialLeft h5, .testimonialRight h5 {
   margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  width: 89%; }
 .testimonialLeft h6, .testimonialRight h6 {
   margin-top: .2em;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  width: 89%; }
 .testimonialLeft .quote, .testimonialRight .quote {
   color: #23282b;
   line-height: 1.5;
