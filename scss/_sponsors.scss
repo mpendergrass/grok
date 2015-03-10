@@ -1,10 +1,28 @@
 .closing {
+
+	a {
+
+		@include breakpoint($medium) {
+			opacity: .65;
+			
+			@include transition ( opacity, .5s, ease);
+
+			&:hover {
+				opacity: 1;
+				}
+
+		}
+	}
+		
+			
+
+
 	img {
 		display: block;
 		margin: 0 auto;
 	}
 	h2 {
-		padding: 0 5%;
+		padding: 0;
 		display:block;
 		background: url(../images/presentedBy.png) no-repeat;
 		text-indent: -9999px;
@@ -12,16 +30,45 @@
 		height: 20px;
 		margin: 0 auto;
 		background-size: 170px 20px;
+
+		@include breakpoint($large){
+			width: 400px;
+			height: 45px;
+			background-size: 400px 45px;
+		}
 	}
 
 	.blueBG {
 		padding: 1em 0;
+
+		@include breakpoint($large){
+			padding: 2em 0;
+		}
+	}
+
+	.tiyLogo, .umsLogo {
+		@include breakpoint($medium){
+			width: 40%;
+			margin: 2em 0 3em;
+		}
+	}
+	
+	.tiyLogo {
+		@include breakpoint($medium){
+			float: left;
+		}
+	}
+
+	.umsLogo {
+		@include breakpoint($medium){
+			float: right;
+		}
 	}
 }
 
 .helpFrom {
 	h2 {
-		padding: 1em 5%;
+		padding: 1em 0;
 		display:block;
 		background: url(../images/withHelp.png) no-repeat;
 		text-indent: -9999px;
@@ -29,5 +76,49 @@
 		height: 20px;
 		margin: 0 auto;
 		background-size: 198px 20px;
+
+		@include breakpoint($large){
+			width: 400px;
+			height: 45px;
+			background-size: 400px 45px;
+		}
+	}
+
+	@include breakpoint($small){
+		img {
+			width: 49%;
+			display: inline-block;
+		}
+
+		.mailChimp {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+
+	.mailChimp{
+		@include breakpoint($medium) {
+				opacity: .65;
+			
+			@include transition ( opacity, .5s, ease);
+
+				&:hover {
+					opacity: 1;
+					}
+		}
+	}
+
+	@include breakpoint($large){
+		img {
+			width: 32%;
+		}
+		.mailChimp{
+			display: inline-block;
+			margin: 0;
+
+		}
+		
+
 	}
 }

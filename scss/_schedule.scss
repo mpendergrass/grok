@@ -7,6 +7,13 @@
 		height: 20px;
 		margin: 1em auto;
 		background-size: 240px 20px;
+
+		@include breakpoint($large){
+			width: 500px;
+			height: 45px;
+			background-size: 500px 45px;
+			margin: 2em auto;
+		}
 	}
 	
 	ul {
@@ -15,15 +22,34 @@
 	h5 {
 		margin-bottom: .2em;
 		font-size: 1em;
+
+		@include breakpoint($large){
+			margin-top: 0;
+		}
 	}
 	.blueBG {
 		padding: 1em 0;
+
+		@include breakpoint($large){
+			padding: 2em 0;
+		}
 	}
 
 	.intro {
 		margin-top: 0;
 		line-height: 1.5;
 		font-weight: 500;
+
+		@include breakpoint($small){
+			font-size: 1.1em;
+		}
+
+		@include breakpoint($large){
+			width: 50%;
+			float: left;
+			margin: 0;
+			font-size: 1.15em;
+		}
 	}	
 
 	.address {
@@ -36,10 +62,44 @@
 		li {
 			font-weight: 500;
 		}
+
+		@include breakpoint($small){
+			font-size: 1em;
+		}
+
+		@include breakpoint($large){
+			font-size: 1.15em;
+		
+		}
 	}
 
 	.ironYard {
 		margin-left: 8%;
+
+		@include breakpoint($small){
+			margin-left: 30%;
+		}
+
+		@include breakpoint($large){
+			margin-left: 12%;
+		}
+	}
+
+
+
+	.locationWrap {
+		@include breakpoint($small){
+			margin: 0 auto;
+			width: 60%;
+		}
+
+		@include breakpoint($large){
+			width: 38%;
+			margin: 0;
+			float: right;
+			padding-right: 5%;
+
+		}
 	}
 }
 
@@ -47,6 +107,11 @@
 	background: url(../images/scheduleBG.jpg) left no-repeat;
 	background-size: cover;
 	text-transform: uppercase;
+
+	@include breakpoint($large){
+			padding: 3em 5%;
+			margin: 0 auto;
+		}
 
 	.day {
 		background: rgba(20, 49, 58, .55);
@@ -85,6 +150,37 @@
 	dd {
 		margin-left: 0;
 		margin-bottom: 2em;
+	}
+
+	.scheduleColumn{
+		@include breakpoint($small){
+			width: 49%;
+			margin: auto;
+			display: inline-block;		
+		}
+
+		@include breakpoint($large){
+			width: 32%;
+		}
+	}
+	
+	.wed {
+		@include breakpoint($large){
+			margin-left: 0;
+		}
+	}
+
+	.thurs {
+		@include breakpoint($small){
+			margin-left: 1%;
+		}
+
+	}
+
+	.fri {
+		@include breakpoint($large){
+			margin-left: 1%;
+		}
 	}
 
 }

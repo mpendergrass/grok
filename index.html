@@ -22,13 +22,15 @@
 		
 <!---------------------------------------------------------  LANDING PG -->		
 		<nav class="topNav">
-			<ul>
-
-				<li><a href="#about">About</a></li>
-				<li><a href="#keynote">Speakers</a></li>
-				<li><a href="#location">Schedule</a></li>
-				<li><a class="topRegister" href="#">Register</a></li>
-			</ul>
+			<div class="wrapper">
+				<ul>
+					<li class="home"><a href="index.html">Home</a></li>
+					<li class="about"><a href="#about">About</a></li>
+					<li class="speakers"><a href="#keynote">Speakers</a></li>
+					<li class="scheduleNav"><a href="#schedule">Schedule</a></li>
+					<li class="topRegister"><a href="#">Register <span class="linkArrows">&raquo;</span></a></li>
+				</ul>
+			</div>
 		</nav>
 
 
@@ -40,21 +42,23 @@
 			
 			<h3>  Greenville</h3>
 			<h2>Grok</h2>
-			<p class="landingSubtitle">April 29 - May 1, 2015</p>
+			<p class="landingSubtitle conferenceDate">April 29 - May 1, 2015</p>
 			
 			<nav>
 				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#keynote">Speakers</a></li>
-					<li><a href="#location">Schedule</a></li>
+					<li><a class="navLink" href="#about">About</a></li>
+					<li><a class="navLink" href="#keynote">Speakers</a></li>
+					<li><a class="navLink" href="#schedule">Schedule</a></li>
 				</ul>
 			</nav>
 
-			<p class="landingSubtitle">A small thing<br>
+			<p class="landingSubtitle slogan">A small thing<br>
 			in a great place<br>
 			with wonderful people</p>
 
-			<a class="joinUs" href="">Join Us</a>
+			<p class="landingSubtitle hidden">A small thing, in a great place, with wonderful people</p>
+
+			<a  id="about" class="joinUs" href="">Join Us</a>
 		</header>
 
 
@@ -69,7 +73,7 @@
 
 <!---------------------------------------------------------  ABOUT -->
 	
-		<div id="about" class="about">	
+		<div class="about clearfix">	
 
 			<div class="wrapper">
 				<h2 class="sectionHeadlineBlue">What is Grok?</h2>
@@ -120,7 +124,7 @@
 
 <!---------------------------------------------------------  10/20s -->		
 		
-			<div class="the1020s"> 
+			<div class="the1020s clearfix"> 
 				
 				<div class="wrapper">
 					<h2 class="subtitle">The 10/20 Breakdown</h2>
@@ -137,8 +141,8 @@
 						<p>mediated discussions between about a dozen participants</p>
 					</section>
 
-					<section class="dial">
-						<img class="circles1020 circlesRight" src="images/1topic.png" alt="1 topic diagram">
+					<section class="dial circlesRight">
+						<img class="circles1020" src="images/1topic.png" alt="1 topic diagram">
 						
 						<div class="dialLabel">
 							<h3>1</h3>
@@ -159,8 +163,8 @@
 						<p>the topic on the table is discussed by the group for 10 minutes</p>
 					</section>
 
-					<section class="dial">
-						<img class="circles1020 circlesRight" src="images/20minutes.png" alt="20 minutes diagram">
+					<section class="dial circlesRight">
+						<img class="circles1020" src="images/20minutes.png" alt="20 minutes diagram">
 
 						<div class="dialLabel">
 							<h3>20</h3>
@@ -192,47 +196,57 @@
 <!-------------------------------------------------------  TESTIMONIALS -->
 
 
-		<div class="testimonials">  
+			<div class="testimonials">  
 
-			<div class="wrapper">
-				<h2 class="sectionHeadlineBlue">The Unconference of the Year</h2>
-			</div>
-
-		<div class="epic">
-			<div class="blueBG">
 				<div class="wrapper">
-					<h3 class="subtitle">Grok is Epic.</h3>
-					<h4>But for the doubters, here's what past participants had to say</h4>
+					<h2 class="sectionHeadlineBlue">The Unconference of the Year</h2>
 				</div>
+
+			<div class="epic">
+
+				<div class="blueBG">
+					<div class="wrapper">
+						<h3 class="subtitle">Grok is Epic.</h3>
+						<h4>But for the doubters, here's what past participants had to say</h4>
+					</div>
+				</div>
+
 			</div>
-		</div>
+
+
 			<div class="wrapper">
 				<section class="testimonialLeft">
 		
 					<img src="images/klare.jpg" alt="Klare Frank photograph">
+					
+					<div class="tight">
+						<p class="quote">"Amazingly friendly people that you can walk right up to and start talking with and 10/20s where folks who are just starting out and people who are internet famous have equal say..."</p>
 
-					<p class="quote">"Amazingly friendly people that you can walk right up to and start talking with and 10/20s where folks who are just starting out and people who are internet famous have equal say..."</p>
-
-					<h5>Klare Frank</h5>
-					<h6>Designer at Treehouse</h6>
+						<h5>Klare Frank</h5>
+						<h6>Designer at Treehouse</h6>
+					</div>
 				</section>
 
-				<section class="testimonialRight">
+				<section class="testimonialRight clearfix">
 					<img src="images/allan.jpg" alt="Allan Branch photograph">
+					
+					<div class="tight">
+						<p class="quote">"I can comfirm I will attend GROK 2015 and bring as many people as I can. The next hurdle for GROK will be keping this event small and intimate, because the word is out, GROK is an amazing event."</p>
 
-					<p class="quote">"I can comfirm I will attend GROK 2015 and bring as many people as I can. The next hurdle for GROK will be keping this event small and intimate, because the word is out, GROK is an amazing event"</p>
-
-					<h5>Allan Branch</h5>
-					<h6>Founder of LessAccounting</h6>
+						<h5>Allan Branch</h5>
+						<h6>Founder of LessAccounting</h6>
+					</div>
 				</section>
 
 				<section class="testimonialLeft">
 					<img src="images/matt.jpg" alt="Matt McManus photograph">
+					
+					<div class="tight">
+						<p class="quote">"GROK is different because it offers information in the context of relationships I've learned real lessons from real people, and these are lessons (and people) I can go back to again and again. That's flipp'n awesome."</p>
 
-					<p class="quote">"GROK is different because it offers information in the context of relationships I've learned real lessons from real people, and these are lessons (and people) I can go back to again and again. That's flipp'n awesome."</p>
-
-					<h5>Matt McManus</h5>
-					<h6>Designer</h6>
+						<h5>Matt McManus</h5>
+						<h6>Designer</h6>
+					</div>
 				</section>
 			</div>	
 		</div>
@@ -251,39 +265,43 @@
 
 <!---------------------------------------------------------  KEYNOTES -->
 
-		<div id="keynote" class="keynote">  
+		<div id="keynote" class="keynote clearfix">  
 			<div class="wrapper">
 				<h3 class="subtitleBlue">Keynote Speakers</h3>
 			</div>
 
-			<section class="speaker paul">
-				<div class="wrapper">
-					<h4>Dr. Paul Roof</h4>
-					<p>Paul Roof is an Associate Professor of Sociology at Charleston Southern University and specializes in urban studies and popular culture. In 2007, while teaching at the College of Charleston, Paul founded the Holy City Beard & Moustache Society. This American Beardsman has gone on to claim countless beard contest victories.</p>
-				</div>
-			</section>
 
-			<section class="speaker moldover">
-				<div class="wrapper">	
-					<h4>Moldover</h4>
-					<p>Hailed by over 1,000,000 YouTube viewers as “The Godfather of Controllerism”, Moldover is a new breed of music icon. Combining the charisma of a rock star, the mad genius of a basement inventor, and the radical inclusiveness of the DIY internet generation, Moldover is “literally throwing away the rule book and reinventing the wheel” (Remix Magazine).</p>
-				</div>
-			</section>
+			<div class="speakerMaxWrap">
+				<section class="speaker paul">
+					<div class="wrapper">
+						<h4>Dr. Paul Roof</h4>
+						<p>Paul Roof is an Associate Professor of Sociology at Charleston Southern University and specializes in urban studies and popular culture. In 2007, while teaching at the College of Charleston, Paul founded the Holy City Beard & Moustache Society. This American Beardsman has gone on to claim countless beard contest victories.</p>
+					</div>
+				</section>
+
+				<section class="speaker moldover">
+					<div class="wrapper">	
+						<h4>Moldover</h4>
+						<p>Hailed by over 1,000,000 YouTube viewers as “The Godfather of Controllerism”, Moldover is a new breed of music icon. Combining the charisma of a rock star, the mad genius of a basement inventor, and the radical inclusiveness of the DIY internet generation, Moldover is “literally throwing away the rule book and reinventing the wheel” (Remix Magazine).</p>
+					</div>
+				</section>
 
 
-			<section class="speaker aaron">
-				<div class="wrapper">
-					<h4>Aaron Draplin</h4>
-					<p>Raised in the Michigan Northwoods, schooled at the Minneapolis College of Art and Design, and currently hunkered down in the mighty Pacific Northwest, the Draplin Design Co. proudly rolls up its sleeves on a number of projects related to the Print, Identity, Web Development, Illustration, and Gocco Muscle categories.</p>
-				</div>
-			</section>
+				<section class="speaker aaron">
+					<div class="wrapper">
+						<h4>Aaron Draplin</h4>
+						<p>Raised in the Michigan Northwoods, schooled at the Minneapolis College of Art and Design, and currently hunkered down in the mighty Pacific Northwest, the Draplin Design Co. proudly rolls up its sleeves on a number of projects related to the Print, Identity, Web Development, Illustration, and Gocco Muscle categories.</p>
+					</div>
+				</section>
 
-			<section class="speaker carl">
-				<div class="wrapper">
-					<h4>Carl Smith</h4>
-					<p>Owner and founder of nGen Works, Carl’s role is that of an advisor, to nGen and other companies. His focus is on how to create self-sustaining teams that perform at the highest levels.</p>
-				</div>
-			</section>
+				<section class="speaker carl">
+					<div class="wrapper">
+						<h4>Carl Smith</h4>
+						<p>Owner and founder of nGen Works, Carl’s role is that of an advisor, to nGen and other companies. His focus is on how to create self-sustaining teams that perform at the highest levels.</p>
+					</div>
+				</section>
+			</div>
+
 		</div>
 
 
@@ -301,19 +319,19 @@
 
 
 
-		<div id="location" class="location">  
+		<div class="location">  
 			<div class="wrapper">
 				<h2 class="sectionHeadlineBlue">Schedule & Location</h2>
 			</div>
 
-			<section class="blueBG">
+			<section class="blueBG clearfix">
 
 				<div class="wrapper">
 					<p class="intro">Three jam-packed days of fun with designers, developers, thinkers, good conversation, and beer! GROK takes place at the Huguenot Mill and at The Iron Yard’s HQ both in Downtown Greenville.</p>
 				</div>
 
 
-				<div class="wrapper">
+				<div class="wrapper locationWrap">
 				
 					<div class="address">
 
@@ -333,10 +351,13 @@
 							<li>Main Street</li>
 							<li>Greenville, SC</li>
 							<li>29601</li>
-							<li><a href="#">Directions</a></li>
+							<li><a id="schedule" href="#">Directions</a></li>
 						</ul>
 					</div>
+
 				</div>	
+
+
 			</section>
 		</div>
 
@@ -351,8 +372,8 @@
 
 <!---------------------------------------------------------  SCHEDULE -->
 
-		<div class="schedule">
-			<section>
+		<div class="schedule clearfix">
+			<section class="scheduleColumn wed">
 				<div class="day">
 					<div class="wrapper">
 						<h3>Wednesday</h3>
@@ -387,7 +408,7 @@
 				</dl>
 			</section>
 
-			<section>
+			<section class="scheduleColumn thurs">
 				<div class="day">
 					<div class="wrapper">
 						<h3>Thursday</h3>
@@ -422,7 +443,7 @@
 				</dl>
 			</section>
 
-			<section>
+			<section class="scheduleColumn fri">
 				<div class="day">
 					<div class="wrapper">
 						<h3>Friday</h3>
@@ -497,11 +518,14 @@
 			</div>
 
 			<div class="wrapper">
-				<a href="#"><img src="images/tiy.png" alt="The Iron Yard Logo"></a>
+				
+				<div class="clearfix">
+					<a class="tiyLogo" href="#"><img src="images/tiy.png" alt="The Iron Yard Logo"></a>
 
-				<a href="#"><img src="images/ums.png" alt="Unmatched Style Logo"></a>
+					<a class="umsLogo" href="#"><img src="images/ums.png" alt="Unmatched Style Logo"></a>
+				</div>
 			
-				<section class="helpFrom">
+				<section class="helpFrom clearfix">
 
 					<h2 class="sectionHeadlineBlue">With Help From</h2>
 						<a href="#"><img src="images/invision.png" alt="Invision Logo"></a>
@@ -510,7 +534,7 @@
 						<a href="#"><img src="images/squarespace.png" alt="Squarespace Logo"></a>
 
 						<a href="#"><img src="images/treehouse.png" alt="Treehouse Logo"></a>
-						<a href="#"><img src="images/mailchimp.png" alt="MailChimp Logo"></a>
+						<a href="#"><img class="mailChimp" src="images/mailchimp.png" alt="MailChimp Logo"></a>
 				</section>
 			</div>
 		</div>
@@ -529,8 +553,11 @@
 			<div class="wrapper">
 				<ul>
 					<li><a href="#">Copyright 2015 GROK</a></li>
+					<li class="displayNone">|</li>
 					<li><a href="#">Terms & Policies</a></li>
+					<li class="displayNone">|</li>
 					<li><a href="#">Volunteer</a></li>
+					<li class="displayNone">|</li>
 					<li><a href="#">info@unmatchedstyle.com</a></li>
 				</ul>
 			</div>

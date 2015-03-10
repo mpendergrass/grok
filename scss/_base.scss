@@ -58,6 +58,11 @@ body, li {
 .wrapper {
 	margin: 0;
 	padding: 0 5%;
+
+	@include breakpoint($xlarge){
+		max-width: $xlarge;
+		margin: 0 auto;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {

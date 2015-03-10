@@ -8,6 +8,10 @@
 		-webkit-font-smoothing: antialiased;
 		font-size: 2em;
 		font-weight: 400;
+
+		@include breakpoint($large){
+			font-size: 2.75em;
+		}
 	}
 
 	img {
@@ -31,22 +35,75 @@
 			width: 75%;
 		}
 
+		@include breakpoint($large){
+			font-size: 1.3em;
+			width: 75%;
+		}
+
+
 	}
 
 	h3 {
 		font-size: 6em;
 		margin: 0 auto;
 
+		@include breakpoint($small){
+			font-size: 4.5em;
+		}
+		
+		@include breakpoint($medium){
+			font-size: 5.5em;
+		}
+
+		@include breakpoint($large){
+			font-size: 5.75em;
+			
+		}
 	}
 
 	h4 {
 		font-size: 1.75em;
 		text-transform: lowercase;
 		margin: 0;
+
+		@include breakpoint($small){
+			font-size: 1.5em;
+		}
+
+		@include breakpoint($large){
+			font-size: 1.75em;
+
+		}
 	}
 
 	.dialLabel {
 		margin-top: -13em;
 		margin-bottom: 6em;
+
+		@include breakpoint($small){
+			margin-top: -11em;
+		}
+
+		@include breakpoint($medium){
+			margin-top: -13em;
+		}
 	}
+
+
+	}
+
+
+	.dial {
+		@include breakpoint($small){
+			width: 45%;
+			display: inline-block;
+		}
+
+
 }
+
+.circlesRight {
+		@include breakpoint($small){
+			margin-left: 9%;
+		}
+	}

@@ -4,43 +4,109 @@
 	color: white;
 	padding: 3em 0;
 
+	@include breakpoint($large){
+		margin: 0 auto;
+		margin-top: 3em;
+
+		}
+
 	h3 {
 		text-align: center;
 		color: $blue;
 		font-size: 2em;
 		margin-top: 0;
 		font-weight: 400;
+
+		@include breakpoint($large){
+			font-size: 2.75em;
 		}
+	}
 	
+	.speakerMaxWrap {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
 	.speaker {
 		padding: 2em 0;
 		min-height: 20em;
 		margin-bottom: 1.5em;
+
+		@include breakpoint($small){
+			background-size: cover;
+			//margin: 1.5em;
+			padding: 2em;
+		}
+
+		@include breakpoint($medium){
+			width: 48%;
+			height: 27em;
+			float: left;
+			padding: 0;
+
+		}
+
+		@include breakpoint($large){
+			height: 23em;
+			width: 49%;
+		
+		}
 	}
+
+	.moldover, .carl {
+		@include breakpoint($medium){
+			float: right;
+			margin-left: 3%;
+		}
+
+		@include breakpoint($medium){
+			margin-left: 2%;
+		}
+	}
+
+
 
 	h4 {
 		color: $blue;
 		font-size: 1.25em;
 		letter-spacing: 1px;
 		font-weight: 400;
+
+		@include breakpoint($large){
+			font-size: 1.5em;
+		}
 	}
+
+
 
 	p {
 		line-height: 1.6;
+
+		@include breakpoint($large){
+			font-size: 1em;
+		}
 	}
+
+
+
+
 
 	.paul {
 		background: url(../images/paul.jpg) center no-repeat;
+		background-size: cover;
 	}
 
 	.moldover {
-		background: url(../images/moldover.jpg) center no-repeat;
+		background: url(../images/moldover.jpg) top no-repeat;
+		background-size: cover;
 	}
 	.aaron {
 		background: url(../images/aaron.jpg) center no-repeat;
+		background-size: cover;
 	}
 	.carl {
 		background: url(../images/carl.jpg) center no-repeat;
+		background-size: cover;
 	}
 
 }

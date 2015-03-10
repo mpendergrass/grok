@@ -4,7 +4,11 @@ footer {
 	background-size: cover;
 	background-position: left;
 	text-align: center;
-	padding: 8em 0 .4em;
+	padding: 4em 0 .4em;
+	
+	.displayNone {
+		display: none;
+	}
 
 	a {
 		color: white;
@@ -13,5 +17,26 @@ footer {
 		padding-bottom: .5em;
 		font-size: .9em;
 		font-weight: 500;
+
+		@include transition (text-decoration, .5s, ease);
+
+			&:hover {
+			
+				@include breakpoint($medium) {
+					text-decoration: underline;
+				}
+			}
 	}
+
+	@include breakpoint($large){
+			li {
+				display: inline-block;
+				margin: 0 1%;
+			}
+
+			.displayNone {
+				color: white;
+				display: inline-block;
+			}
+		}
 }

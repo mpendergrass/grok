@@ -8,17 +8,40 @@
 		background-size: 260px 85px;
 		margin: 1em auto;
 		text-align: left;
+
+		@include breakpoint($large){
+			background: url(../images/unconferenceBlue.png) no-repeat center;
+			width: 800px;
+			height: 45px;
+			background-size: 800px 45px;
+			font-size: 2.5em;
+			margin: 1.5em auto;
+		}
 	}
 
 	img {
 		margin: 0 auto 1em;
 		display: block;
+
+		@include breakpoint($small){
+			width: 30%;
+			display: inline-block;
+			vertical-align: top;
+
+		}
 	}
 }
 
 .epic {
 	h3 {
 		font-weight: 400;
+
+		@include breakpoint($large){
+			font-size: 2.75em;
+			text-align: left;
+		}
+
+
 	}
 
 	h4 {
@@ -28,6 +51,13 @@
 		@include breakpoint($small){
 			font-size: 1.2em;
 		}
+		
+
+		@include breakpoint($large){
+			font-size: 1.75em;
+			font-weight: 400;
+		}
+
 	}
 	.blueBG {
 		padding: 1em 0;
@@ -41,18 +71,26 @@
 		color: $blue;
 		font-size: .85em;
 		text-align: left;
+
+		@include breakpoint($large){
+			font-size: 1em;
+		}
 	}
 
 	h5 {
 		margin-top: 0;
 		margin-bottom: 0;
-		width: 89%;
+		
 	}
 
 	h6 {
 		margin-top: .2em;
 		margin-bottom: 5em;
-		width: 89%;
+
+		@include breakpoint($large){
+			margin-bottom: 0;
+		}
+		
 	}
 
 	.quote {
@@ -60,7 +98,60 @@
 		line-height: 1.5;
 		margin: 0 auto;
 		margin-bottom: .8em;
-		width: 89%;
+		
 
 	}
+
+	.tight {
+		width: 89%;
+		margin: 0 auto;
+
+		@include breakpoint($small){
+			width: 65%;
+			display: inline-block;
+		}
+
+		@include breakpoint($large){
+			font-size: 1.15em;
+
+			p {
+				margin-bottom: 3em;
+				margin-top: 1.5em;
+			}
+
+			h6 {
+				margin-bottom: 3em;
+			}
+		}
+	}
+
+	@include breakpoint($medium){
+		margin-bottom: 2.5em;
+	}
+
+	@include breakpoint($large){
+		margin-bottom: 0;
+		}
+
+}
+
+
+.testimonialLeft .tight {
+	@include breakpoint($small){
+		margin-left: 3%;
+	}
+}
+
+.testimonialRight {
+	
+	@include breakpoint($small){
+		img {
+			float: right
+		}
+
+		.tight {
+			float: left
+		}
+	}
+
 }

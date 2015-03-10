@@ -13,6 +13,12 @@
 		height: 20px;
 		margin: 0 auto;
 		margin-bottom: 1em;
+
+		@include breakpoint($large){
+			width: 540px;
+			height: 45px;
+			background-size: 540px 45px;
+		}
 	}
 
 	h3 {
@@ -21,6 +27,10 @@
 		margin-top: 0;
 		font-size: .9em;
 		letter-spacing: 1px;
+
+		@include breakpoint($large){
+			font-size: 1.5em;
+		}
 	}
 
 	a {
@@ -31,6 +41,24 @@
 		border: 2px solid $neon;
 		padding: .65em 2.5em;
 		margin: 3em 2em 0;
+
+		-webkit-transition: color .5s ease, border-color .5s ease;
+		-moz-transition:  color .5s ease, border-color .5s ease;
+		-ms-transition:  color .5s ease, border-color .5s ease;
+		-o-transition: color .5s ease, border-color .5s ease;
+		transition:  color .5s ease, border-color .5s ease;
+
+			&:hover {
+			
+				@include breakpoint($medium) {
+					color: white;
+					border-color: white;
+				}
+			}
+
+		@include breakpoint($large){
+			font-size: 1.25em;
+		}
 
 	}
 
